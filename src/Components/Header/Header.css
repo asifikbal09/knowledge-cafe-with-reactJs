@@ -1,0 +1,20 @@
+.header h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
