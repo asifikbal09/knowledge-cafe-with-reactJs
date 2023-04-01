@@ -1,0 +1,21 @@
+.bookmarked {
+    width: 80%;
+    padding: 1em;
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 1rem;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.bookmarked h4 {
+    color: #6047EC;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    padding: .5em;
+
+}

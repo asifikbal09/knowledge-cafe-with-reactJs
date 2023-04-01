@@ -7,9 +7,9 @@ const Bookmarked = (props) => {
     if(readTime.length!==0){
         totalTime = readTime.reduce((total,num)=>total+num)
     }
-  return <div className="Bookmarked">
+  return <div className="bookmarked">
     <h4>
-        Spent time on read:{totalTime} min
+        Spent time on read: {totalTime} min
     </h4>
     <div className="blog-bookmark">
         <h3>Bookmarked Blogs : {}</h3>
