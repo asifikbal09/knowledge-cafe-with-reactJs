@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <hr />
       <BlogContainer></BlogContainer>
       <hr />
       <Question></Question>
