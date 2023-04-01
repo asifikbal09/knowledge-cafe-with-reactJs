@@ -20,7 +20,10 @@
     padding: .5em;
 
 }
-
-.blogBookmark{
-    overflow: scroll;
+@media screen and (max-width:576px) {
+    .bookmarked{
+        width: 100%;
+        height: auto;
+    }
 }
+

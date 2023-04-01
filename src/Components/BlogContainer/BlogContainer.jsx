@@ -58,7 +58,7 @@ const notify =()=>{
         ))}
       </div>
       <div>
-        <Bookmarked readTime={time} bookmarkBlog={bookmarked}></Bookmarked>
+        <Bookmarked readTime={time} bookmarkBlog={bookmarked} key={bookmark.id}></Bookmarked>
       </div>
       <ToastContainer/>
     </div>

@@ -1,6 +1,19 @@
-.b-container{
+.b-container {
     width: 90%;
     margin: 10px auto;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+
+}
+
+@media screen and (mix-width: 576px) {
+    .b-container {
+        width: 100vh;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .b-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
 }

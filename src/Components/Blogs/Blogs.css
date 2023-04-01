@@ -27,8 +27,12 @@
     border-radius:15px ;
 }
 .blog>img{
-    width: 450px;
-    border-radius: 15px;
-    
-    
+    width: 100%;
+    border-radius: 15px; 
+}
+
+@media screen and (max-width: 576px){
+    .blog{
+        width: 280px;
+    }
 }
