@@ -6,6 +6,7 @@
     height: 100vh;
     position: sticky;
     top: 0;
+    overflow: scroll;
 }
 
 .bookmarked h4 {
@@ -18,4 +19,8 @@
     line-height: 160%;
     padding: .5em;
 
+}
+
+.blogBookmark{
+    overflow: scroll;
 }

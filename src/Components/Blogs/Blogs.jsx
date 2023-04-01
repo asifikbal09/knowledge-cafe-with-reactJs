@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './Blogs.css';
 
+
 const Blogs = (props) => {
     const {name , publish, readTime , userImg, picture , title} = props.blog
-    const {onRead}=props;
+    const {onRead, bookmark}=props;
     return (
         <div className='blog'>
             <img src={picture} alt="" />
@@ -19,7 +20,7 @@ const Blogs = (props) => {
 
                 </div>
                 <div>
-                <small>{readTime} min read <button><FontAwesomeIcon icon={faBookmark} /></button> </small>
+                <small>{readTime} min read <button onClick={()=>bookmark(props.blog)}><FontAwesomeIcon icon={faBookmark} /></button> </small>
 
                 </div>
 
