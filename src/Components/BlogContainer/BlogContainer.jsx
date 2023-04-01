@@ -21,7 +21,7 @@ const BlogContainer = () => {
   };
 // toast function
 const notify =()=>{
-  toast.warn('🦄', {
+  toast.warn('🦄 You Have Already Bookmarked This Blog..', {
     position: "top-center",
     autoClose: 5000,
     hideProgressBar: false,
@@ -37,7 +37,7 @@ const notify =()=>{
     if (bookmarked !== 0) {
       const search = bookmarked.find((element) => element.id == id);
       if (search) {
-        alert('alrady added')
+        notify();
       } else {
         const newBookmarked = [...bookmarked, blog];
         setBookmarked(newBookmarked);
