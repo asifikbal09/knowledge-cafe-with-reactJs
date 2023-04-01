@@ -5,6 +5,7 @@ import './Blogs.css';
 
 const Blogs = (props) => {
     const {name , publish, readTime , userImg, picture , title} = props.blog
+    const {onRead}=props;
     return (
         <div className='blog'>
             <img src={picture} alt="" />
@@ -24,7 +25,7 @@ const Blogs = (props) => {
 
             </div>
             <h3>{title}</h3>
-            <button>Mark as read</button>
+            <button onClick={()=>onRead(props.blog)}>Mark as read</button>
         </div>
     );
 };

@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
+    padding: 0 5px;
     margin: 0 auto;
 }
 
@@ -17,4 +18,13 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 400px) {
+    .header{
+        width: 97%;
+    }
+    .header h1 {
+        font-size: 35px;
+    }
 }
